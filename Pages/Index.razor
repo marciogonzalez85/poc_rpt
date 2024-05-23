@@ -47,8 +47,17 @@ Welcome to your new app.
         //Assign WebKit converter settings to HTML converter.
         htmlConverter.ConverterSettings = webKitConverterSettings;
 
+        
         //Convert URL to PDF document.
-        PdfDocument document = htmlConverter.Convert("HTMLPage1.html");
+        
+        //Comentado o trecho do Márcio
+        //PdfDocument document = htmlConverter.Convert("HTMLPage1.html");
+
+
+        PdfDocument document = htmlConverter.Convert("HTMLSimples.html");
+        
+        
+        
         //Create memory stream.
         using MemoryStream stream = new MemoryStream();
         //Save the document to memory stream.
@@ -57,7 +66,15 @@ Welcome to your new app.
         stream.Position = 0; // Reinicie a posição do stream para a leitura
 
         // Caminho do arquivo de saída
-        string outputPath = "output_blazor.pdf";
+        
+        //Comentado o trecho do Márcio
+        //string outputPath = "output_blazor.pdf";
+        
+
+
+        string outputPath = "output_fabio.pdf";
+
+
 
         // Chame o método para salvar o stream em um arquivo
         await SaveStreamToFileAsync(stream, outputPath);
