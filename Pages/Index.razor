@@ -1,0 +1,75 @@
+﻿@page "/"
+@using Syncfusion.Drawing
+@using Syncfusion.HtmlConverter
+@using Syncfusion.Pdf
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await Report();
+    }
+
+    public async Task Report()
+    {
+        //Initialize HTML to PDF converter.
+        HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter(HtmlRenderingEngine.WebKit);
+
+        WebKitConverterSettings webKitConverterSettings = new WebKitConverterSettings();
+
+        //Set the page orientation
+        webKitConverterSettings.Orientation = PdfPageOrientation.Portrait;
+        //Set the page margins
+        webKitConverterSettings.Margin.Right = 40;
+        webKitConverterSettings.Margin.Left = 40;
+        webKitConverterSettings.Margin.Top = 40;
+        webKitConverterSettings.Margin.Bottom = 40;
+
+        //disable the webkit warning
+        webKitConverterSettings.DisableWebKitWarning = true;
+
+        //Set the WebKit viewport size.
+        webKitConverterSettings.WebKitViewPort = new Size(912, 0);
+
+        //Set the additional delay to 1 minute.
+        webKitConverterSettings.AdditionalDelay = 10000;
+
+        //Adding footer
+        //webKitConverterSettings.PdfFooter = CreateFooter(config);
+
+        //Assign WebKit converter settings to HTML converter.
+        htmlConverter.ConverterSettings = webKitConverterSettings;
+
+        //Convert URL to PDF document.
+        PdfDocument document = htmlConverter.Convert("HTMLPage1.html");
+        //Create memory stream.
+        using MemoryStream stream = new MemoryStream();
+        //Save the document to memory stream.
+        document.Save(stream);
+
+        stream.Position = 0; // Reinicie a posição do stream para a leitura
+
+        // Caminho do arquivo de saída
+        string outputPath = "output_blazor.pdf";
+
+        // Chame o método para salvar o stream em um arquivo
+        await SaveStreamToFileAsync(stream, outputPath);
+    }
+
+    static async Task SaveStreamToFileAsync(Stream inputStream, string filePath)
+    {
+        // Crie ou sobrescreva o arquivo de saída
+        using (FileStream outputFileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+        {
+            // Copie o conteúdo do inputStream para o outputFileStream
+            await inputStream.CopyToAsync(outputFileStream);
+        }
+    }
+}

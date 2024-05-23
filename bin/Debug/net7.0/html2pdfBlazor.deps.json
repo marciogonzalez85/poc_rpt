@@ -1,0 +1,706 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "html2pdfBlazor/1.0.0": {
+        "dependencies": {
+          "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core": "25.2.5"
+        },
+        "runtime": {
+          "html2pdfBlazor.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Syncfusion.Compression.Net.Core/25.2.5": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "25.2.5.0",
+            "fileVersion": "25.2.5.0"
+          }
+        }
+      },
+      "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core/25.2.5": {
+        "dependencies": {
+          "Syncfusion.Pdf.Net.Core": "25.2.5"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.HtmlConverter.Portable.dll": {
+            "assemblyVersion": "25.2.5.0",
+            "fileVersion": "25.2.5.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/Syncfusion.WebKitWrapper": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqdds.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqgif.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqicns.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqico.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqjp2.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqjpeg.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqmng.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqsvg.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqtga.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqtiff.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqwbmp.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/imageformats/libqwebp.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libGL.so.1": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Core.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5DBus.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Gui.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Multimedia.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5MultimediaWidgets.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Network.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5OpenGL.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Positioning.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5PrintSupport.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Qml.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Quick.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Sensors.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Sql.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Svg.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5WebChannel.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5WebKit.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5WebKitWidgets.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5Widgets.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libQt5XcbQpa.so.5": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libicudata.so.55": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libicui18n.so.55": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libicuuc.so.55": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libjpeg.so.8": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libpng12.so.0": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libsqlite3.so.0": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libstdc++.so.6": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/platforms/libqminimal.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/platforms/libqoffscreen.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/platforms/libqxcb.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/Syncfusion.WebKitWrapper": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqdds.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqgif.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqicns.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqico.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqjp2.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqjpeg.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqmng.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqsvg.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqtga.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqtiff.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqwbmp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/imageformats/libqwebp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Core.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5DBus.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Gui.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Multimedia.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5MultimediaWidgets.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Network.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5OpenGL.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Positioning.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5PrintSupport.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Qml.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Quick.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Sensors.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Sql.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Svg.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5WebChannel.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5WebKit.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5WebKitWidgets.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libQt5Widgets.5.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libcrypto.1.0.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libssl.1.0.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/platforms/libqcocoa.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/platforms/libqminimal.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/platforms/libqoffscreen.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Core.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Gui.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Multimedia.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5MultimediaWidgets.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Network.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5OpenGL.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Positioning.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5PrintSupport.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Qml.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Quick.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Sensors.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Sql.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Svg.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5WebChannel.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5WebKit.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5WebKitWidgets.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Qt5Widgets.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/Syncfusion.WebKitWrapper": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/icudt49.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "49.1.2.0"
+          },
+          "runtimes/win-x64/native/icuin49.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "49.1.2.0"
+          },
+          "runtimes/win-x64/native/icuuc49.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "49.1.2.0"
+          },
+          "runtimes/win-x64/native/imageformats/qdds.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qgif.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qicns.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qico.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qjp2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qjpeg.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qmng.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qsvg.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qtga.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qtiff.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qwbmp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/imageformats/qwebp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/libEGL.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libGLESv2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/platforms/qminimal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/platforms/qoffscreen.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/platforms/qwindows.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.5.0.0"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/25.2.5": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "25.2.5.0",
+            "fileVersion": "25.2.5.0"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Net.Core/25.2.5": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "25.2.5",
+          "Syncfusion.Licensing": "25.2.5",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Pdf.Portable.dll": {
+            "assemblyVersion": "25.2.5.0",
+            "fileVersion": "25.2.5.0"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "html2pdfBlazor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/25.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KD0z/PgJQ9tYYVSOszZcqhzD4JLStzDj/QDx0y8Pob1+OVgFgHObpdH9OV6cMNEq6DlGXWTLzQAopAgqCMu5Aw==",
+      "path": "syncfusion.compression.net.core/25.2.5",
+      "hashPath": "syncfusion.compression.net.core.25.2.5.nupkg.sha512"
+    },
+    "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core/25.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOPDH3pODijxTQRdvRnQoekaEYXyzabxEczMf9K0ZzKJtHVhjexPQDkX+TyzHVevy9JrBucLU0T5P84n+iVo7w==",
+      "path": "syncfusion.htmltopdfconverter.qtwebkit.net.core/25.2.5",
+      "hashPath": "syncfusion.htmltopdfconverter.qtwebkit.net.core.25.2.5.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/25.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o7NaSsKrrR0PHy7mYylsrnr8ugsElxAfvRQ7mWsu/wUVlcohbXb9gisheYGoTG7rzbWsYmKjQshFjqt80vnACQ==",
+      "path": "syncfusion.licensing/25.2.5",
+      "hashPath": "syncfusion.licensing.25.2.5.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Net.Core/25.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zUMRi4t/9MtfdbXfbBpBFSsZjGEDJ/s8mGegzF4T4YhWaXIph60my6QTdiuxrezyCBDh5zwYhpWpqSSvfjfVzw==",
+      "path": "syncfusion.pdf.net.core/25.2.5",
+      "hashPath": "syncfusion.pdf.net.core.25.2.5.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    }
+  }
+}

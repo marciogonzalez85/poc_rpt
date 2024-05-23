@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sVI7Flf4zN49ydKXj0LNssT23kJ7J7/GjyIJwV1m7FyJHqNoOrUWVJ4Pa9Rj4nTBc5CTeY1CkWUQXy72gy4tFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marci\\Documents\\Repos\\Marcio\\html2pdfBlazor\\html2pdfBlazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marci\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\syncfusion.compression.net.core\\25.2.5\\syncfusion.compression.net.core.25.2.5.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\syncfusion.htmltopdfconverter.qtwebkit.net.core\\25.2.5\\syncfusion.htmltopdfconverter.qtwebkit.net.core.25.2.5.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\syncfusion.licensing\\25.2.5\\syncfusion.licensing.25.2.5.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\syncfusion.pdf.net.core\\25.2.5\\syncfusion.pdf.net.core.25.2.5.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
